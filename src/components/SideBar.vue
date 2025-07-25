@@ -29,11 +29,9 @@
         <WalletIcon class="w-5 h-5" />
         <span>Wallet</span>
       </a>
-      
     </nav>
   </aside>
 </template>
-
 <script setup>
 import { Squares2X2Icon, ChartBarSquareIcon, WalletIcon, ChatBubbleOvalLeftIcon, PencilIcon, UserIcon, WindowIcon } from '@heroicons/vue/24/outline';
 </script>
