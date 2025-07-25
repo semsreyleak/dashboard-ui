@@ -1,10 +1,10 @@
 <template>
   <aside class="w-48 bg-gray-100 text-gray-900 flex-shrink-0 p-3 h-screen font-semibold overflow-y-auto">
     <nav class="space-y-4 items-center justify-center">
-      <a href="" class="flex text-sm items-center gap-2 hover:bg-purple-300 hover:p-2 p-2">
+      <router-link to="/dashboard" class="flex text-sm items-center gap-2 hover:bg-purple-300 hover:p-2 p-2">
         <Squares2X2Icon class="w-5 h-5" />
         <span>Dashboard</span>
-      </a>
+      </router-link>
       <a href="" class="items-center gap-2 flex text-sm hover:bg-purple-300 hover:p-2 p-2">
         <ChartBarSquareIcon class="w-5 h-5" />
         <span>Analytics</span>
